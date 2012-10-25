@@ -6,6 +6,12 @@ body
 {
 	margin-left: 0px;
 	margin-top: 0px;
+	background: #FFF3C3;
+	background-image:url('images/background.jpg');
+	background-repeat:repeat-x;
+	background-attachment:fixed;
+	background-position:bottom; 
+	
 }
 
 a
@@ -18,14 +24,21 @@ a:hover
 {
 	text-decoration:  none;
 	color: #0404B4;
-	text-shadow: 0 0 5px #2E9AFE;
+	text-shadow: 0 0px 5px #2E9AFE;
 }
 
 .wrapper
 {
 	width: 75%;
+	box-shadow: 0 0 80px #000000;
+	background: #ffffff;
+	border-radius: 15px;
+	-moz-box-shadow: 0 0 80px #000000;
+	-moz-border-radius: 15px;
+	opacity: 0.9;
 	margin: auto;
-	box-shadow: 0 0 70px #000000;
+	border: 5px outset #BDBDBD; 
+	padding: 5px;
 }
 
 .bannerBar
@@ -56,7 +69,8 @@ a:hover
 
 #bannerTitle
 {
-	text-shadow: 0 0 30px #123456;
+	text-shadow: 0 10px 30px #0000FF, 0 15px 30px #DF013A;
+	color: #000000;
 	font-weight: bold;
 	font-size: 50px;
 }
@@ -77,6 +91,7 @@ a:hover
 	display: inline-block;
 	text-align: center;
 	box-shadow: 0 0 15px #000000;
+	-moz-box-shadow: 0 0 15px #000000;
 }
 
 #navBarLinkImage:hover
@@ -99,6 +114,11 @@ hr
 	font-weight: bold;
 	font-size: 23px;
 	font-family: "Arial Narrow";
+	background: #CEE3F6;
+	border-radius: 7px;
+	width: 80%;
+	margin: auto;
+	-moz-border-radius: 7px;
 }
 
 li
@@ -130,6 +150,14 @@ li
 	color: #6E6E6E
 }
 
+#gallery
+{
+	box-shadow: 0px 0px 10px #000000;
+	-moz-box-shadow: 0px 0px 10px #000000;
+	padding: 10px 5px 25px 5px;
+	border: 1px solid #ffffff;
+	border: 1px;
+}
 #gallery:hover
 {
 	opacity: 0.5;

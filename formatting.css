@@ -1,0 +1,138 @@
+/* Submission for Web-D Event in Altius - 2 by Edu-Techs
+Name  - Nilay Binjola | Altius ID - A2ET1113 */
+/* Formatting CSS for Altius Project */
+
+body
+{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #B43104;
+}
+
+a:hover
+{
+	text-decoration:  none;
+	color: #0404B4;
+	text-shadow: 0 0 5px #2E9AFE;
+}
+
+.wrapper
+{
+	width: 75%;
+	margin: auto;
+	box-shadow: 0 0 70px #000000;
+}
+
+.bannerBar
+{
+	display: inline-block;
+	width: 100%;
+}
+
+.leftBannerColumn
+{
+	margin: auto;
+	width: 25%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.rightBannerColumn
+{
+	width: 72%;
+	display: inline-block;
+	margin: auto;
+	vertical-align: middle;
+	text-indent: 80px;
+	border-bottom-style: dashed;
+	border-color: #6E6E6E;
+}
+
+#bannerTitle
+{
+	text-shadow: 0 0 30px #123456;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.navBar
+{
+	width: 25%;
+	margin:auto;
+	display: inline-block;
+	vertical-align: top;
+	border-right-style: dashed;
+	border-color: #6E6E6E;
+}
+
+#navBarLinkImage
+{
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	box-shadow: 0 0 15px #000000;
+}
+
+#navBarLinkImage:hover
+{
+	opacity: 0.5;
+}
+
+hr
+{
+	border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+.navBarLinks
+{
+	font-weight: bold;
+	font-size: 23px;
+	font-family: "Arial Narrow";
+}
+
+li
+{
+	padding: 5px;
+}
+
+.contentBody
+{
+	display: inline-block;
+	margin-top: -25px;
+	margin-left: 25px;
+	width: 70%;	
+}
+
+#marqueeFooter
+{
+	border-top-style: dashed;
+	border-color: #6E6E6E;
+	color: #585858;
+	font-weight: bold;
+}
+.footer
+{
+	display: inline-block;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	color: #6E6E6E
+}
+
+#gallery:hover
+{
+	opacity: 0.5;
+}
+/* Submission for Web-D Event in Altius - 2 by Edu-Techs
+Name  - Nilay Binjola | Altius ID - A2ET1113 */
